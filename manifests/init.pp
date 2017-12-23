@@ -1,5 +1,5 @@
-class role::tomcat {
-      include profile:tomcat
-      include profile:baseprofile
+class roles::tomcat {
+      include profiles:tomcat
+      include profiles:baseprofile
 
 }
